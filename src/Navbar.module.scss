@@ -1,0 +1,120 @@
+
+.Navbar {
+display:flex;
+flex-direction:column;
+width: 100%;
+}
+
+.Fixed {
+position:fixed;
+}
+
+.Navbar a{
+background-color:var(--primary-color);
+color:var(--secondary-color);
+display:flex;
+align-items:center;
+justify-content:center;
+height:50px;
+font-weight:bold;
+text-decoration:none;
+text-transform:uppercase;
+};
+
+.ShowNav{
+height:100%;
+}
+
+.HideNav{
+height:fit-content;
+}
+
+.Navbar ul li a:hover span{
+text-decoration: underline;
+padding:10px 50px 10px 50px;
+background-color: var(--primary-color);
+border: 2px solid var(--secondary-color);;
+border-radius: 12px;
+};
+
+.Navbar ul li a:hover {
+border-bottom-style: none;
+};
+
+.Navbar li:hover .Dropdown1 li{
+top:0;
+display:block;
+};
+
+
+.Navbar ul li {
+position:relative;
+width:100%;
+text-align:center;
+};
+
+.Dropdown1 ul li{
+display:none;
+position:relative;
+};
+
+.Dropdown1{
+position:absolute;
+display:flex;
+flex-direction:column;
+width:100%;
+};
+
+
+.Dropdown1 ul li:hover .Dropdown2 ul li{
+display:block;
+};
+
+.Dropdown2 ul li{
+display:none;
+};
+
+.Dropdown2{
+display:flex;
+flex-direction:column;
+position:absolute;
+top:0;
+left:100%;
+width:200px;
+};
+
+@media screen and (max-width: 768px) {
+
+	.ExpandButton{
+	font-size: 30px;
+	margin-right: 30px;
+	color: var(--secondary-color);
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	float: right;
+	}
+
+	.Navbar ul {
+	list-style: none;
+	};
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+	.ExpandButton{
+	display:none;
+	}
+
+	.Navbar ul {
+	list-style: none;
+	display:flex;
+	};
+
+
+
+
+}

@@ -1,0 +1,13 @@
+{
+	"hello.label": "您好",
+	"thankyou.label": "谢谢",
+	"contact.label": "联系",
+	"contact.name":"姓名",
+	"contact.email":"邮箱",
+	"contact.subject":"assunto",
+	"contact.message":"短信",
+	"contact.submit":"同意",
+	"auth.usernameOrEmail":"utilizador/email",
+	"auth.password":"password",
+	"submit":"submit"
+}

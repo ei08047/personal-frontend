@@ -1,0 +1,19 @@
+.Container{
+  display: flex;
+  justify-content: left;
+  background-color:var(--primary-color);
+}   
+
+
+.Item {
+  min-width: fit-content;
+  max-width: 60px;
+  flex-basis: auto; /* default value */
+  flex-grow: 1;
+  text-align: left;
+  padding: 4px;
+  border-width:4px;  
+  border-style:dashed;
+  border-color:var(--secondary-color);
+  color:var(--secondary-color)
+};

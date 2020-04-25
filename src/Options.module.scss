@@ -1,0 +1,21 @@
+
+
+.InlineContainer {
+	background-color: var(--primary-color);
+  color:var(--secondary-color);
+	display:flex;
+	flex-direction:row;
+	max-height:30px;
+};
+
+.LanguageSelector{
+flex:0.4;
+};
+
+.DarkMode{
+flex:0.4;
+};
+
+.WalletManager{
+	flex:0.2
+};
