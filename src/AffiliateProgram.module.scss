@@ -1,0 +1,22 @@
+.MainContainer{
+	margin:4em;
+	background-color:var(--secondary-color);
+	color:var(--primary-color)
+}
+
+.text1{
+	padding:2em;
+}
+
+
+.MainContainer ul{
+	list-style: inherit;
+    list-style-position: inside;
+    margin: 2em;
+}
+
+
+.MainContainer ul li{
+	    margin: 1em;
+}
+
