@@ -20,6 +20,7 @@ import Topic from "./Topic.js";
 import Auth from "./Auth.js";
 import Register from "./Register.js";
 import AffiliateProgram from './AffiliateProgram.js';
+import PastProjects from './PastProjects.js';
 import Leaderboard from "./Leaderboard.js";
 
 const routes = [
@@ -51,9 +52,9 @@ const routes = [
     sitemap: (e) => <Sitemap e={e} title="Leaderboard"/>  
   },
       {
-    path: "/affiliates/projects",
+    path: "/projects",
     exact: true,
-    main: () => <h2>topics</h2>,
+    main: () => <PastProjects />,
     sitemap: (e) => <Sitemap e={e} title="Past projects" />  
   },
   {

@@ -66,6 +66,9 @@ render(){
             <li>
               <Link to="/services"><span>services</span> </Link>
             </li>
+            <li>
+              <Link to="/projects"><span>past projects</span> </Link>
+            </li>
             <li
             onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             <Link to="/affiliates"> <span> Affiliates </span></Link>
@@ -74,11 +77,6 @@ render(){
                 <li>
                   <Link to="/affiliates/leaderboard"> <span>leaderboard</span></Link>
                 </li>
-              <li onMouseEnter={this.toggleHover2} onMouseLeave={this.toggleHover2}>
-                <Link to="/affiliates/projects">
-                <span>projects</span>
-                </Link>
-            </li>
           </ul>) }
           </li>
           <li>
