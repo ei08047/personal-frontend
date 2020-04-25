@@ -3,7 +3,8 @@
 	color:var(--primary-color);
 	display:flex;
 	flex-direction:row;
-	height:2000px;
+	flex-wrap: wrap;
+    height: fit-content;
 };
 
 img{

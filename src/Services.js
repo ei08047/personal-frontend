@@ -44,7 +44,7 @@ function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button href={props.href} size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
@@ -58,12 +58,14 @@ class Services extends React.Component{
 
 render(){
     return (
+    <>
     		<div className={styles.ServicesContainer} > 
 
             <div className={styles.ServiceItem} >
                 < MediaCard 
                 title="website development"
                 content=""
+                href="#website_development"
                 />
             </div>
 
@@ -71,16 +73,31 @@ render(){
 			 < MediaCard 
              title="webscrapping solutions"
              content=""
+             href="#web_scrapping"
              />
     		</div>
     		<div className={styles.ServiceItem} >
 			 < MediaCard 
              title="smart-contract programing"
              content=""
+             href="#smart_contract"
              />
     		</div>
 
     		</div>
+
+<div className={styles.LearnMore}>
+<div id="website_development">
+  <h3>website development</h3>
+</div>
+<div id="web_scrapping">
+<h3>webscrapping solutions</h3>
+</div>
+<div id="smart_contract">
+<h3>smart contract programing</h3>
+</div>
+</div>
+</>
   );
 }
 

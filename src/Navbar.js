@@ -78,21 +78,6 @@ render(){
                 <Link to="/affiliates/projects">
                 <span>projects</span>
                 </Link>
-                {this.state.hover2 && (
-                  <ul className={styles.Dropdown2}>
-                  <li > 
-                    <Link to="/parent/topics/crypto-getting-started">
-                      <span>Getting started with crypto currencies</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/parent/topics/topic2">
-                      <span>topic2</span>
-                    </Link>
-                  </li>
-
-              </ul>) }
-
             </li>
           </ul>) }
           </li>

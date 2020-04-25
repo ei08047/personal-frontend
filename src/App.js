@@ -56,11 +56,6 @@ const routes = [
     main: () => <h2>topics</h2>,
     sitemap: (e) => <Sitemap e={e} title="Past projects" />  
   },
-        {
-    path: "/affiliates/projects/:projectId",
-    main: () => <Topic />,
-    sitemap: (e) => <Sitemap e={e}/>  
-  },
   {
     path: "/auth",
     main: () => <Auth />,

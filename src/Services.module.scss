@@ -1,10 +1,13 @@
 .ServicesContainer{
 	display:flex;
+	    flex-wrap: wrap;
 	flex-direction:row;
+    justify-content: center;
 };
 
 .ServiceItem{
 	margin:20px;
+	min-width: 345px;
 }
 
 .DataScrapping{
@@ -18,4 +21,12 @@
 
 .dAppDevelopment{
 	flex:0.3;	
+}
+
+
+.LearnMore{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	color:var(--primary-color);
 }

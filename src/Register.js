@@ -20,10 +20,14 @@ class Register extends React.Component{
 constructor(props) {
     super(props);
     this.state = {
-      usernameOremail: '',
+      username: '',
+      email:'',
       password: '',
-      usernameOrEmail_label:props.t("auth.usernameOrEmail"),
+      confirmPassword:'',
+      username_label:props.t("auth.username"),
+      email_label:props.t("auth.email"),
       password_label:props.t("auth.password"),
+      confirm_password_label:props.t("auth.confirm_password"),
       submit_label:props.t("submit"),
       submit_disabled:true,
     };
@@ -60,14 +64,20 @@ constructor(props) {
   render() {
     return (
       <div className={styles.Container}>
-      <h2>Log in</h2>
       <form  onSubmit={this.handleSubmit}>
         
         <div className={styles.Control}>
         <label>
-          {this.state.usernameOrEmail_label}:
+          {this.state.username_label}:
         </label>
-        <input type="text" name="username" value={this.state.usernameOremail} onChange={this.handleChange} />
+        <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />
+        </div>
+
+        <div className={styles.Control}>
+        <label>
+          {this.state.email_label}:
+        </label>
+        <input type="email" name="email" value={this.state.email} onChange={this.handleChange} />
         </div>
 
         <div className={styles.Control}>
@@ -79,9 +89,9 @@ constructor(props) {
 
         <div className={styles.Control}>
         <label>
-          {this.state.password_label}:
+          {this.state.confirm_password_label}:
         </label>
-        <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
+        <input type="password" name="confirmPassword" value={this.state.confirmPassword} onChange={this.handleChange} />
         </div>
 
         <div className={styles.Control}>
