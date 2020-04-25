@@ -23,23 +23,25 @@ import AffiliateProgram from './AffiliateProgram.js';
 import PastProjects from './PastProjects.js';
 import Leaderboard from "./Leaderboard.js";
 
+
+
 const routes = [
   {
     path: "/",
     exact: true,
     main: () => <About/>,
-    sitemap: (e) => <Sitemap e={e} title="About Me"/>
+    sitemap: (e) => <Sitemap e={e} title="aboutme.label"/>
   },
   {
     path: "/affiliates",
     exact: true,
     main: () => <AffiliateProgram/>,
-    sitemap: (e) => <Sitemap e={e} title="Affiliate Program" />  
+    sitemap: (e) => <Sitemap e={e} title="affiliateprogram.label" />  
   },
     {
     path: "/services",
     main: () => <Services/>,
-    sitemap: (e) => <Sitemap e={e} title="Services Provided"/>  
+    sitemap: (e) => <Sitemap e={e} title="servicesprovided.label"/>  
   },
   {
     path: "/contact",
@@ -49,13 +51,13 @@ const routes = [
     {
     path: "/affiliates/leaderboard",
     main: () => <Leaderboard/>,
-    sitemap: (e) => <Sitemap e={e} title="Leaderboard"/>  
+    sitemap: (e) => <Sitemap e={e} title="leaderboard.label"/>  
   },
       {
     path: "/projects",
     exact: true,
     main: () => <PastProjects />,
-    sitemap: (e) => <Sitemap e={e} title="Past projects" />  
+    sitemap: (e) => <Sitemap e={e} title="pastprojects.label" />  
   },
   {
     path: "/auth",
@@ -91,6 +93,8 @@ class App extends React.Component{
   }  
 
 render(){
+
+
     return (
 <Suspense fallback={null}>
 

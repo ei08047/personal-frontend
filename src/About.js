@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./About.module.scss";
-
+import { withTranslation } from 'react-i18next';
 
 
 class About extends React.Component{
@@ -40,4 +40,4 @@ render(){
 }
 
 
-export default About;
+export default withTranslation()(About);

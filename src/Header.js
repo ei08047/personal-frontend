@@ -61,7 +61,7 @@ listenToScroll = () => {
 		className={styles.Header}
 		ref={ (divElement) => { this.divElement = divElement } }
 		>
-		      <p>{this.props.t('hello.label')}</p>
+		      <p>{this.props.t('welcome.label')}</p>
       </div>
       </>
 

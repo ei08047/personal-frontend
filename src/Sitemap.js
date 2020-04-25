@@ -3,8 +3,13 @@ import {
   useLocation
 } from "react-router-dom";
 import styles from "./Sitemap.module.scss";
+import { useTranslation } from 'react-i18next';
+
 
 export default function Sitemap(r) {
+
+  	const { t, i18n } = useTranslation();
+
 	let location = useLocation();
 	let p = ["root"];
 	let curr = location.pathname.split("/")
@@ -34,7 +39,7 @@ export default function Sitemap(r) {
 		}
 
 			</div>
-			<h2> {r.title}</h2>
+			<h2> {t(r.title)}</h2>
 			</div>
 			)
 		}
