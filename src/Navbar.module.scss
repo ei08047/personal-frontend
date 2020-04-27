@@ -8,6 +8,7 @@ z-index:9999;
 
 
 
+
 .Navbar a{
 background-color:var(--primary-color);
 color:var(--secondary-color);
@@ -18,7 +19,15 @@ height:50px;
 font-weight:bold;
 text-decoration:none;
 text-transform:uppercase;
+font-size: smaller;
+transition: font-size 2s;
+
 };
+
+.Navbar a span{
+transition: background-color 1.5s;
+transition: color 1.5s;
+}
 
 .ShowNav{
 height:100%;
@@ -34,10 +43,12 @@ padding:10px 50px 10px 50px;
 background-color: var(--primary-color);
 border: 2px solid var(--secondary-color);;
 border-radius: 12px;
+background-color:#d6d8dc;
 };
 
 .Navbar ul li a:hover {
 border-bottom-style: none;
+font-size: medium;
 };
 
 .Navbar li:hover .Dropdown1 li{
