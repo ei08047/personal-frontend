@@ -12,9 +12,7 @@ import Countdown from "./Countdown.js";
 import { StylesProvider } from '@material-ui/core/styles';
 
 
-const useStyles = makeStyles({
 
-});
 
 function createData(username, numClients, numProjects, commissionsEarned, total) {
   return { username, numClients, numProjects,commissionsEarned, total };
@@ -29,7 +27,6 @@ const rows = [
 ];
 
 export default function Leaderboard() {
-  const classes = useStyles();
 
   return (
   	<>

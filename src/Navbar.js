@@ -26,6 +26,7 @@ constructor(props) {
     pastprojectsLabel:props.t("pastprojects.label"),
     affiliatesLabel:props.t("affiliates.label"),
     servicesLabel:props.t("services.label"),
+    blogLabel:props.t('blog.label'),
     loginregisterLabel:props.t("login/register.label"),
   }
   this.toggleHover = this.toggleHover.bind(this);
@@ -98,6 +99,9 @@ render(){
                   <Link to="/affiliates/leaderboard"> <span>{this.state.leaderboardLabel}</span></Link>
                 </li>
           </ul>) }
+          </li>
+          <li>
+          <Link to="/blog"> <span> {this.state.blogLabel} </span> </Link>
           </li>
           <li>
           <Link to="/contact"> <span> {this.state.contactLabel} </span> </Link>

@@ -6,9 +6,7 @@ width: 100%;
 z-index:9999;
 }
 
-.Fixed {
-position:fixed;
-}
+
 
 .Navbar a{
 background-color:var(--primary-color);
@@ -115,7 +113,9 @@ width:200px;
 	display:flex;
 	};
 
-
+	.Fixed {
+	position:fixed;
+	}
 
 
 }

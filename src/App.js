@@ -23,6 +23,7 @@ import AffiliateProgram from './AffiliateProgram.js';
 import PastProjects from './PastProjects.js';
 import Leaderboard from "./Leaderboard.js";
 import Profile from "./Profile.js";
+import Blog from "./Blog.js";
 
 
 
@@ -74,6 +75,12 @@ const routes = [
     path: "/profile",
     main: () => <Profile />,
     sitemap: (e) => <Sitemap e={e} title="Profile page"/>  
+  },
+
+        {
+    path: "/blog",
+    main: () => <Blog />,
+    sitemap: (e) => <Sitemap e={e} title="Blog"/>  
   }
 ];
 
