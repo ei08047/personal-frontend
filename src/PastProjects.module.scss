@@ -5,6 +5,8 @@
 
 .SingleProject{
 	margin:3em;
+	border-bottom-color: var(--primary-color);
+    border-bottom-style: inset;
 }
 .SingleProject p{
 	color:var(--primary-color);

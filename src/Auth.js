@@ -77,6 +77,7 @@ constructor(props) {
         </label>
         <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
         </div>
+                <span> <a href="/forgot-password" >forgot password</a></span>
 
       <div className={styles.Control}>
           <input type="submit" value={this.state.submit_label} disabled={this.state.submit_disabled}/>

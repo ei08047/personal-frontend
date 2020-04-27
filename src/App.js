@@ -22,6 +22,7 @@ import Register from "./Register.js";
 import AffiliateProgram from './AffiliateProgram.js';
 import PastProjects from './PastProjects.js';
 import Leaderboard from "./Leaderboard.js";
+import Profile from "./Profile.js";
 
 
 
@@ -68,6 +69,11 @@ const routes = [
     path: "/register",
     main: () => <Register />,
     sitemap: (e) => <Sitemap e={e} title="Create an account"/>  
+  },
+      {
+    path: "/profile",
+    main: () => <Profile />,
+    sitemap: (e) => <Sitemap e={e} title="Profile page"/>  
   }
 ];
 
