@@ -2,6 +2,7 @@
   --primary-color: #fff;
   --secondary-color: #24314a;
   --terciary-color:white;
+  --link-color:#e8db3b;
 }
 
 
@@ -9,6 +10,7 @@ html[data-theme="dark"] {
   --primary-color: #24314a;
   --secondary-color: #fff;
     --terciary-color:white;
+    --link-color:#f1a214;
 }
 
 *{
@@ -36,4 +38,9 @@ html[data-theme="dark"] {
 
 h2{
 	color:var(--primary-color);
+}
+
+a{
+	color:var(--link-color);
+	font-weight: 600;
 }

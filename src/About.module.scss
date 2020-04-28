@@ -34,3 +34,16 @@ flex-direction:column;
     font-size: x-large;
 };
 
+
+.secondaryContent{
+	display:flex;
+	flex-direction:column;
+}
+
+
+.secondaryContent span{
+	width:300px;
+	margin:10px;
+}
+
+

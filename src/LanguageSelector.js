@@ -55,8 +55,8 @@ export default function LanguageSelector() {
           onChange={handleChange}
         >
           <MenuItem  value={"en"}>English</MenuItem>
-          <MenuItem value={"pt"}>Portuguese</MenuItem>
-          <MenuItem value={"ch"}>Chinese</MenuItem>
+          <MenuItem value={"pt"}>Português</MenuItem>
+          <MenuItem value={"ch"}>中文</MenuItem>
         </Select>
       </FormControl>
     </div>

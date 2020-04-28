@@ -25,13 +25,25 @@ render(){
 		        <span>My name is José and i'm a web developer based in Porto.
 		      I develop professional websites, data scrapping solutions and distributed applications on ethereum network.
 		      </span>
-
-
-
-
-
-
 		      </div>
+
+		      <div className={styles.secondaryContent}>
+		      <span>
+		      For business enquiries head over to <a href="/contact"> contact page </a> and let me know what your up to. 
+		      I'll reply to you as soon has humanly possible. In the mean time you can check out some <a href="/projects"> previous projects</a>
+		      </span>
+
+		      <span>
+		      Do you know someone who needs my services? Enter my affiliate program and send them to me with your affilite code.
+		      Grab your contributions and compete for the big prize. More information <a href="/affiliates"> here </a>
+		      </span>
+
+		      <span>
+		      Do you want to know more? Check out my <a href="/blog"> blog</a> and don't forget to subscribe to the newsletter. 
+		      Currently is all about crypto currencies but i promisse to start revealing some trade secrets soon.
+		      </span>
+		      </div>
+
       </div>
 
   );
