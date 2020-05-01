@@ -157,7 +157,7 @@ constructor(props) {
         <textarea value={this.state.message} name="message" onChange={this.handleChange} />
         </div>
 
-<div className={styles.Control}>
+<div className={styles.SubmitControl}>
       <input type="submit" value={this.state.submit_label} disabled={this.state.submit_disabled}/>
 </div>
 

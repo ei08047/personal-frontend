@@ -23,23 +23,35 @@ export default function Sitemap(r) {
 
 	let size= curr.length; 															
 	return (
-		<div className={styles.SSS}>
-		<div className={styles.Container}>
+		<div>
+		<div className={styles.NavigationHelper}>
 		{
 			p.map(
 				(route, index) => {
-					return (
+					if (index == 0){
+									return (
 						<div className={styles.Item} key={index} >
 						{route}
 						</div> 
 						);
+					}
+					else {
+									return (
+						<div className={styles.Item} key={index} >
+						/{route}
+						</div> 
+						);
+					}
+		
 					
 				}
 			)
 		}
 
 			</div>
+			<div className={styles.SSS}>
 			<h2> {t(r.title)}</h2>
+			</div>
 			</div>
 			)
 		}

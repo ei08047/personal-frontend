@@ -4,9 +4,8 @@
 	display:flex;
 	flex-direction:column;
     align-items: center;
-    justify-content: flex-start;
     color: var(--primary-color);
-	padding:0 15vw 0 15vw;
+    padding:5vh 0 0 0;
     height: fit-content;
   	background-color:var(--secondary-color);
 };
@@ -17,17 +16,21 @@ form{
     display: flex;
     flex-flow: column;
     align-items: flex-start;
+    padding: 10px;
+    border: var(--primary-color);
+    border-style: solid;
 };
 
 .Control{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin:0em 1em 0em 1em;
 
 };
 
 label {
-    width:100px;
+    width: 6em;
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
@@ -37,9 +40,9 @@ label {
 
 
 
-input {
+.Control input {
         flex:0.6;
-	    width: 50vw;
+        min-width: 50vw;
 	    height: 25px;
         border: 2px solid var(--primary-color);
         border-radius: 10px;
@@ -48,17 +51,24 @@ input {
 textarea{
     flex:0.6;
     height: 150px;
-    width: 50vw;
+    min-width: 50vw;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
 }
 
 
-input[type="submit"] {
+.SubmitControl{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    margin:0em 1em 0em 1em;
+}
+
+.SubmitControl input[type="submit"] {
+    margin:2em;
     -webkit-appearance: button;
     height: 50px;
     width: 150px;
-    margin: 20px 0 20px 30vw;
     color:var(--secondary-color);
     background-color: var(--primary-color);
 }

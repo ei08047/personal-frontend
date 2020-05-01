@@ -1,33 +1,28 @@
-.Container{
-  margin-top:50px;
+
+
+.SSS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1.5em;
+
+}
+
+
+.NavigationHelper{
+  margin-top:10px;
   display: flex;
   justify-content: left;
   flex:0.4;
   background-color:var(--secondary-color);
 }
 
-.SSS{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
-
-}
-
-.SSS h2{
-  flex:0.4;
-}
-
 
 .Item {
-  min-width: fit-content;
-  max-width: 60px;
-  flex-basis: auto; /* default value */
-  flex-grow: 1;
+  width: fit-content;
   text-align: left;
-  padding: 4px;
-  border-width:4px;  
-  border-style:dashed;
-  border-color:var(--primary-color);
-  color:var(--primary-color)
+  padding: 2px;
+  color:var(--primary-color);
+  font-size: small;
 };

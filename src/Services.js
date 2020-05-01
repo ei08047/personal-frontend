@@ -86,14 +86,33 @@ render(){
     		</div>
 
 <div className={styles.LearnMore}>
+
 <div id="website_development">
   <h3>website development</h3>
+<p>
+I develop websites using the M.E.R.N. technological stack. It stands for Mongo, Express, React and Node.
+This stack allows to build web applications that have a large amount of interactivity built into the front-end.
+If you want something special, that you cannot get out of a tradicional content managment system i might have a solution just for you.
+</p>
 </div>
+
 <div id="web_scrapping">
 <h3>webscrapping solutions</h3>
+<p>
+I develop websites using the M.E.R.N. technological stack. It stands for Mongo, Express, React and Node.
+This stack allows to build web applications that have a large amount of interactivity built into the front-end.
+If you want something special, that you cannot get out of a tradicional content managment system i might have a solution just for you.
+</p>
+
+
 </div>
 <div id="smart_contract">
 <h3>smart contract programing</h3>
+<p>
+I develop websites using the M.E.R.N. technological stack. It stands for Mongo, Express, React and Node.
+This stack allows to build web applications that have a large amount of interactivity built into the front-end.
+If you want something special, that you cannot get out of a tradicional content managment system i might have a solution just for you.
+</p>
 </div>
 </div>
 </>

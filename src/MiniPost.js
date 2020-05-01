@@ -45,20 +45,17 @@ const { classes } = this.props;
       <div 
 		className={styles.Post}>
     <Card className={styles.root}>
-      <CardContent>
+      <CardContent className={styles.content}>
         <Typography className={styles.title} color="textSecondary" gutterBottom>
           {this.props.title}
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          intro
-        </Typography>
-        <Typography variant="body2" component="p">
+        <Typography  className={styles.intro} component="p">
           {this.props.intro}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+      <CardActions className={styles.MiniPostFooter}>
+        <Button >Learn More</Button>
+      </CardActions >
     </Card>
       </div>
       </StylesProvider>
