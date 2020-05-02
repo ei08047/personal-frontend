@@ -17,8 +17,6 @@ form{
     flex-flow: column;
     align-items: flex-start;
     padding: 10px;
-    border: var(--primary-color);
-    border-style: solid;
 };
 
 .Control{
@@ -61,14 +59,14 @@ textarea{
     display:flex;
     flex-direction: row;
     align-self: center;
-    margin:0em 1em 0em 1em;
+    margin:1.5em 1em 0em 1em;
 }
 
 .SubmitControl input[type="submit"] {
     margin:2em;
     -webkit-appearance: button;
-    height: 50px;
-    width: 150px;
+    height: 2em;
+    width: 10em;
     color:var(--secondary-color);
     background-color: var(--primary-color);
 }

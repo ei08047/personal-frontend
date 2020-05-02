@@ -5,17 +5,15 @@
   color:var(--secondary-color);
 	display:flex;
 	flex-direction:row;
+	justify-content: space-between;
+    align-items: center;
 	max-height:30px;
 };
 
 .LanguageSelector{
-flex:0.4;
 };
 
 .DarkMode{
-flex:0.4;
+
 };
 
-.WalletManager{
-	flex:0.2
-};

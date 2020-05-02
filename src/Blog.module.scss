@@ -1,11 +1,37 @@
+@media screen and (max-width: 768px) {
+
 .Blog{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     color: var(--primary-color);
 	padding:0 5vw 10vh 5vw;
     height: fit-content;
   	background-color:var(--secondary-color);
 }
+
+}
+
+@media screen and (min-width: 768px) {
+
+.Blog{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+	padding:0 5vw 10vh 5vw;
+    height: fit-content;
+  	background-color:var(--secondary-color);
+}
+
+}
+
+
+
+
+
+

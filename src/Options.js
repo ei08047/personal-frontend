@@ -14,9 +14,6 @@ render(){
 		className={styles.InlineContainer}>
 		<div className={styles.LanguageSelector} > <LanguageSelector /> </div>
 		<div className={styles.DarkMode} > <DarkMode /> </div>
-		<div className={styles.Wallet}> <WalletManager /> </div>
-
-		
       </div>
   );
 }

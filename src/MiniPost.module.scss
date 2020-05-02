@@ -8,7 +8,8 @@
 .content{
 		height: 380px;
 	    font-size: 0.7em;
-	    color:#44413c;
+	    color:var(--light-text);
+	    background-color:var(--primary-color);
 }
 
 .intro{
@@ -25,7 +26,7 @@ margin: 1em;
     margin: 30px 0px 45px 0px;
     font-size: 1.45em;
     font-weight: 570;
-    color:#44413c;
+    color:var(--light-text);
     text-align: center;
 }
 
